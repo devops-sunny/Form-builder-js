@@ -1,0 +1,42 @@
+const dataCustomSections = {
+    logo: {
+        id: '',
+        title: 'Company logo',
+        cardTitle: 'Company logo',
+        isActive: false,
+        items: [],
+        type: 'logo',
+        model: 'section',
+        height: 200,
+        bgImage: '',
+        logoImage: '',
+        logoName: '',
+        logoDescription: '',
+        subModel: 'logo',
+    },
+    header: {
+        id: '',
+        title: 'Image header',
+        cardTitle: 'Image header',
+        isActive: false,
+        items: [],
+        type: 'header',
+        model: 'section',
+        height: 200,
+        bgImage: '',
+        subModel: 'bg',
+    },
+    footer: {
+        id: '',
+        title: 'Image footer',
+        cardTitle: 'Image footer',
+        isActive: false,
+        items: [],
+        type: 'footer',
+        model: 'section',
+        height: 200,
+        subModel: 'bg',
+    },
+};
+
+export default dataCustomSections;

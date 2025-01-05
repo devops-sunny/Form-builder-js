@@ -1,0 +1,147 @@
+/* @font-face {
+    font-display: swap;
+    font-family: IBM Plex Sans Arabic;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/static/media/ibm-plex-sans-arabic-arabic-400-normal.9cba1d1403d079476cf7.woff2) format("woff2"), url(/static/media/ibm-plex-sans-arabic-all-400-normal.9b22260af05842948087.woff) format("woff");
+    unicode-range: u+06??, u+200c-200e, u+2010-2011, u+204f, u+2e41, u+fb50-fdff, u+fe80-fefc
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IBM Plex Sans Arabic;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/static/media/ibm-plex-sans-arabic-cyrillic-ext-400-normal.53ee9e7afeb778d8d83b.woff2) format("woff2"), url(/static/media/ibm-plex-sans-arabic-all-400-normal.9b22260af05842948087.woff) format("woff");
+    unicode-range: u+0460-052f, u+1c80-1c88, u+20b4, u+2de0-2dff, u+a640-a69f, u+fe2e-fe2f
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IBM Plex Sans Arabic;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/static/media/ibm-plex-sans-arabic-latin-ext-400-normal.4706a02f57e3f4d29e31.woff2) format("woff2"), url(/static/media/ibm-plex-sans-arabic-all-400-normal.9b22260af05842948087.woff) format("woff");
+    unicode-range: u+0100-024f, u+0259, u+1e??, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IBM Plex Sans Arabic;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/static/media/ibm-plex-sans-arabic-latin-400-normal.29a43e58885321225860.woff2) format("woff2"), url(/static/media/ibm-plex-sans-arabic-all-400-normal.9b22260af05842948087.woff) format("woff");
+    unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IBM Plex Sans Arabic;
+    font-style: normal;
+    font-weight: 500;
+    src: url(/static/media/ibm-plex-sans-arabic-arabic-500-normal.29f1b8bdfde01791d63d.woff2) format("woff2"), url(/static/media/ibm-plex-sans-arabic-all-500-normal.fb9fc1f7123fb5aa67fc.woff) format("woff");
+    unicode-range: u+06??, u+200c-200e, u+2010-2011, u+204f, u+2e41, u+fb50-fdff, u+fe80-fefc
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IBM Plex Sans Arabic;
+    font-style: normal;
+    font-weight: 500;
+    src: url(/static/media/ibm-plex-sans-arabic-cyrillic-ext-500-normal.e7b6f901737c4ee93ee9.woff2) format("woff2"), url(/static/media/ibm-plex-sans-arabic-all-500-normal.fb9fc1f7123fb5aa67fc.woff) format("woff");
+    unicode-range: u+0460-052f, u+1c80-1c88, u+20b4, u+2de0-2dff, u+a640-a69f, u+fe2e-fe2f
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IBM Plex Sans Arabic;
+    font-style: normal;
+    font-weight: 500;
+    src: url(/static/media/ibm-plex-sans-arabic-latin-ext-500-normal.cec014645cabb9e3c8bc.woff2) format("woff2"), url(/static/media/ibm-plex-sans-arabic-all-500-normal.fb9fc1f7123fb5aa67fc.woff) format("woff");
+    unicode-range: u+0100-024f, u+0259, u+1e??, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IBM Plex Sans Arabic;
+    font-style: normal;
+    font-weight: 500;
+    src: url(/static/media/ibm-plex-sans-arabic-latin-500-normal.fc431547738d89e88a04.woff2) format("woff2"), url(/static/media/ibm-plex-sans-arabic-all-500-normal.fb9fc1f7123fb5aa67fc.woff) format("woff");
+    unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IBM Plex Sans Arabic;
+    font-style: normal;
+    font-weight: 700;
+    src: url(/static/media/ibm-plex-sans-arabic-arabic-700-normal.c4d326be0504ddf7f6f2.woff2) format("woff2"), url(/static/media/ibm-plex-sans-arabic-all-700-normal.a1cd610ed105026cf93f.woff) format("woff");
+    unicode-range: u+06??, u+200c-200e, u+2010-2011, u+204f, u+2e41, u+fb50-fdff, u+fe80-fefc
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IBM Plex Sans Arabic;
+    font-style: normal;
+    font-weight: 700;
+    src: url(/static/media/ibm-plex-sans-arabic-cyrillic-ext-700-normal.a21b169643edc71359b3.woff2) format("woff2"), url(/static/media/ibm-plex-sans-arabic-all-700-normal.a1cd610ed105026cf93f.woff) format("woff");
+    unicode-range: u+0460-052f, u+1c80-1c88, u+20b4, u+2de0-2dff, u+a640-a69f, u+fe2e-fe2f
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IBM Plex Sans Arabic;
+    font-style: normal;
+    font-weight: 700;
+    src: url(/static/media/ibm-plex-sans-arabic-latin-ext-700-normal.f8b48a629064119083d8.woff2) format("woff2"), url(/static/media/ibm-plex-sans-arabic-all-700-normal.a1cd610ed105026cf93f.woff) format("woff");
+    unicode-range: u+0100-024f, u+0259, u+1e??, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff
+}
+
+@font-face {
+    font-display: swap;
+    font-family: IBM Plex Sans Arabic;
+    font-style: normal;
+    font-weight: 700;
+    src: url(/static/media/ibm-plex-sans-arabic-latin-700-normal.b9e8e63cfc5b2d17c1f4.woff2) format("woff2"), url(/static/media/ibm-plex-sans-arabic-all-700-normal.a1cd610ed105026cf93f.woff) format("woff");
+    unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da, u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212, u+2215, u+feff, u+fffd
+} */
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: IBM Plex Sans Arabic, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    margin: 0
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace
+}
+
+* {
+    scrollbar-color: rgba(50, 53, 84, .4) transparent;
+    scrollbar-width: thin
+}
+
+::-webkit-scrollbar {
+    width: 2px
+}
+
+::-webkit-scrollbar-track {
+    background: transparent
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(50, 53, 84, .1);
+    border: 0 solid trasparent;
+    border-radius: 20px
+}
+
+::selection {
+    background: #ece9fc
+}
+
+fieldset legend {
+    width: auto
+}
+
+# sourceMappingURL=main.977e698e.css.map

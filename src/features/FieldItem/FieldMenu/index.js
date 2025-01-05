@@ -222,7 +222,7 @@ export default function CardSettingsMenu({
         <Box sx={{ width: '100%' }}>
           <Tabs value={tab} onChange={handleTabChange} aria-label="fields">
             <Tab label="Field type" {...a11yProps(0)} />
-            <Tab label="Rules" {...a11yProps(1)} />
+            {/* <Tab label="Rules" {...a11yProps(1)} /> */}
           </Tabs>
           <TabPanel value={tab} index={0}>
             <FieldTypeTab

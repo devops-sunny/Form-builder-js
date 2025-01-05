@@ -242,7 +242,7 @@ Are you sure you want to withdraw the form from review?`;
           alignItems="center"
           sx={{ mt: 2 }}
         >
-          {!preview.isActive && (
+          {/* {!preview.isActive && (
             <Chip
               label="Non-residents"
               radius="sharp"
@@ -265,7 +265,7 @@ Are you sure you want to withdraw the form from review?`;
             <Typography sx={{ height: 21 }} variant="caption" color="dark.$40">
               Preview mode
             </Typography>
-          )}
+          )} */}
         </Stack>
       </Grid>
       <Stack direction="row" justifyContent="flex-end" alignItems="center">
@@ -304,7 +304,7 @@ Are you sure you want to withdraw the form from review?`;
             </Modal>
           ) : (
             <>
-              <Switch onChange={handlePreviewChange} />
+              {/* <Switch onChange={handlePreviewChange} />
               <Typography
                 sx={{
                   margin: (theme) => theme.spacing(0, 5, 0, 2),
@@ -312,7 +312,7 @@ Are you sure you want to withdraw the form from review?`;
                 }}
               >
                 Preview mode
-              </Typography>
+              </Typography> */}
               <Select
                 id="popper-select-role-preview"
                 value={preview.role}
